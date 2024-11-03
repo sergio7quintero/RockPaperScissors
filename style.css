@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 35%;
+    min-width: 500px;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0, 15px, 25px rgba(0, 0, 0, .45);
+    align-items: center;
+}
+
+.container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.gameScore {
+    text-align: right;
+    display: flex;
+}
+
+.gameScore p {
+    margin: 4px;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#message {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.choice button {
+    background-color: rgb(210, 192, 168);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.choice button:hover {
+    transform: translateY(-10px);
+}
+
+.choice button img {
+    width: 100px;
+}
+
+.restart {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.restart button {
+    width: 25%;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(red, rgb(255, 238, 0));
+}
